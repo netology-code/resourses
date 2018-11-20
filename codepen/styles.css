@@ -225,9 +225,12 @@ section {
   background: white;
 }
 
-
 section img {
   max-width: 100%;
+}
+
+blockquote {
+  line-height: 1;
 }
 
 blockquote > p {
