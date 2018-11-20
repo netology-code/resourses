@@ -245,9 +245,20 @@ blockquote::before {
   font-style: normal;
   margin-left: -10px;
   margin-top: -30px;
-
 }
 
 blockquote::after {
   content: "";
+}
+
+blockquote::after {
+  content: "»";
+  position: absolute;
+  right: 0.5em;
+  top: 0;
+  font-size: 45px;
+  color: rgb(0, 172, 242);
+  font-style: normal;
+  margin-right: -10px;
+  margin-top: -30px;
 }
