@@ -248,10 +248,6 @@ blockquote::before {
 }
 
 blockquote::after {
-  content: "";
-}
-
-blockquote::after {
   content: "»";
   position: absolute;
   right: 0.5em;
