@@ -230,14 +230,6 @@ section img {
   max-width: 100%;
 }
 
-blockquote {
-  margin-bottom: 0;
-}
-
-blockquote > p {
-  margin-bottom: 0;
-}
-
 blockquote::before {
   content: "«";
   position: relative;
