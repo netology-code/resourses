@@ -231,6 +231,7 @@ section img {
 }
 
 blockquote {
+  position: relative;
   margin-bottom: 0;
 }
 
@@ -249,12 +250,9 @@ blockquote::before {
 
 blockquote::after {
   content: "»";
-  position: absolute;
-  right: 0.5em;
-  top: 0;
+  left: 0.5em;
+  top: 0.3em;
   font-size: 45px;
   color: rgb(0, 172, 242);
   font-style: normal;
-  margin-right: -10px;
-
 }
