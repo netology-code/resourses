@@ -44,7 +44,7 @@
 }
 
 .widget-link-facebook::before {
-	background-image: url("https://stas-melnikov.ru/n-html/facebook.svg");
+	background-image: url("https://netology-code.github.io/resourses/pics/facebook.svg");
 }
 
 .widget-link-twitter {
@@ -52,7 +52,7 @@
 }
 
 .widget-link-twitter::before {
-	background-image: url("https://stas-melnikov.ru/n-html/twitter.svg");
+	background-image: url("https://netology-code.github.io/resourses/pics/twitter.svg");
 	background-color: #76A9EA;
 }
 
@@ -61,7 +61,7 @@
 }
 
 .widget-link-vk::before {
-	background-image: url("https://stas-melnikov.ru/n-html/vk.svg");
+	background-image: url("https://netology-code.github.io/resourses/pics/vk.svg");
 	background-color: #4d76a1;
 }
 
