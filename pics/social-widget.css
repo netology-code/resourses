@@ -1,0 +1,83 @@
+
+.widget {
+	text-align: center;	
+	margin-top: 60px;
+}
+
+.widget-label {
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.widget-socials {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+
+.widget-link {
+	display: flex;
+	align-items: center;
+	background-color: #3b5998;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px 30px;
+}
+
+.widget-link::before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+	
+	width: 24px;
+	height: 24px;
+	
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: center;
+}
+
+.widget-link-facebook::before {
+	background-image: url("https://stas-melnikov.ru/n-html/facebook.svg");
+}
+
+.widget-link-twitter {
+	background-color: #76A9EA;
+}
+
+.widget-link-twitter::before {
+	background-image: url("https://stas-melnikov.ru/n-html/twitter.svg");
+	background-color: #76A9EA;
+}
+
+.widget-link-vk {
+	background-color: #4d76a1;
+}
+
+.widget-link-vk::before {
+	background-image: url("https://stas-melnikov.ru/n-html/vk.svg");
+	background-color: #4d76a1;
+}
+
+
+/**/
+
+.widget > ul.widget-socials {
+	display: block;
+}
+
+.widget > ul.widget-socials .widget-social {
+	width: 220px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.widget > ul.widget-socials .widget-social:nth-child(n+2) {
+	margin-top: 10px;
+}
